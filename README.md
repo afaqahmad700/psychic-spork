@@ -1,2 +1,2 @@
 # psychic-spork
-Online Object Oriented(OOP) Quiz
+Online Quiz
