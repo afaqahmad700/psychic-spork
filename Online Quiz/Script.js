@@ -34,7 +34,7 @@
   }, {
     question: "Which season comes before spring?",
     choices: ['winter', 'fall', 'spring'],
-    correctAnswer: 0
+    correctAnswer: 1
   }, {
     question: "Which season comes after summer?",
     choices: ['spring', 'winter', 'fall'],
