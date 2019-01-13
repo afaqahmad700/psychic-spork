@@ -1,26 +1,46 @@
 (function() {
   var questions = [{
-    question: "What is 2*5?",
-    choices: [2, 5, 10, 15, 20],
+    question: "8 * 8 + ? = 66",
+    choices: [12, 5, 2, 15, 10],
     correctAnswer: 2
   }, {
-    question: "What is 3*6?",
-    choices: [3, 6, 9, 12, 18],
+    question: "22 + ? = 40",
+    choices: [13, 16, 19, 12, 18],
     correctAnswer: 4
   }, {
-    question: "What is 8*9?",
-    choices: [72, 99, 108, 134, 156],
+    question: "580 - (85 + 95) =",
+    choices: [400, 480, 380, 390, 300],
     correctAnswer: 0
   }, {
-    question: "What is 1*7?",
-    choices: [4, 5, 6, 7, 8],
+    question: "615 - (225 + 67) =",
+    choices: [321, 333, 313, 323, 208],
     correctAnswer: 3
   }, {
-    question: "What is 8*8?",
-    choices: [20, 30, 40, 50, 64],
-    correctAnswer: 4
+    question: "There are 434 worker ants and 323 warrior ants in an anthill. If 23 more workers and 45 more warriors are born, how many ants will there be in an anthill?",
+    choices: [757, 780, 802, 825, 604],
+    correctAnswer: 3
+  }, {
+    question: "Is 15 x 2 even or odd? ",
+    choices: ['even', 'odd', 'prime', 'non of these'],
+    correctAnswer: 0
+  }, {
+    question: "Compare 6 x 8 and 9 x 5",
+    choices: ['6 x 8 < 9 x 5', '6 x 8 > 9 x 5', '6 x 8 = 9 x 5'],
+    correctAnswer: 1
+  }, {
+    question: "How do you write this number using words? <6,629> ",
+    choices: ['six thousand, twenty-nine', 'six thousand, six hundred twenty-nine', 'six thousand, six hundred nince', 'six thousand, two hundred'],
+    correctAnswer: 1
+  }, {
+    question: "Which season comes before spring?",
+    choices: ['winter', 'fall', 'spring'],
+    correctAnswer: 0
+  }, {
+    question: "Which season comes after summer?",
+    choices: ['spring', 'winter', 'fall'],
+    correctAnswer: 2
   }];
-
+  
   var questionCounter = 0; //Tracks question number
   var selections = []; //Array containing user choices
   var quiz = $('#quiz'); //Quiz div object
